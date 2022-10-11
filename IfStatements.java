@@ -1,4 +1,3 @@
-package Code;
 import java.util.Scanner;
 
 public class IfStatements {
@@ -14,5 +13,8 @@ public class IfStatements {
                 System.out.println("And is larger than x: " + x);
             }
         }
+
+
+        reader.close();
     }
 }

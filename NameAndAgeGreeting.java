@@ -1,4 +1,3 @@
-package Code;
 import java.util.Scanner;
 
 public class NameAndAgeGreeting {
@@ -15,6 +14,9 @@ public class NameAndAgeGreeting {
         System.out.print("Your name is: " + name);
         System.out.print(", and you are " + age);
         System.out.print(" years old, you're looking much older!");
+
+
+        reader.close();
     }
     
 }

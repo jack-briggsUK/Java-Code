@@ -1,4 +1,3 @@
-package Code;
 /**
  * QuickStart
  */
@@ -27,5 +26,10 @@ public class SqareCalculator {
         double circleArea = Math.round((Math.PI * Math.pow(2, radius)));
 
         System.out.println(circleArea);
+
+
+
+
+        reader.close();
     }
 }

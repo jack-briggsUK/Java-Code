@@ -1,5 +1,3 @@
-package Code;
-
 /**
  * IfElseStatements
  */
@@ -19,6 +17,8 @@ public class IfElseStatements {
         } else {
             System.out.println("Quite a lot!");
         }
+        
+        reader.close();
     }
 
 }
