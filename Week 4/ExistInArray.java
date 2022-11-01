@@ -13,14 +13,14 @@ public class ExistInArray {
             if (numbers[i] == search) {
                 found = true;
             }
-        };
-        
+        }
+        ;
 
         if (found == true) {
             System.out.println("Value " + search + " found in array");
         } else {
             System.out.println("Value " + search + " was not found in array");
         }
-
+        reader.close();
     }
 }
