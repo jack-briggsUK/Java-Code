@@ -1,6 +1,6 @@
 public class FibonacciCalc {
-    static void Fibonacci() {
-        long[] num = new long[100];
+    static void Fibonacci(int x) {
+        double[] num = new double[x];
 
         num[0] = 0;
         num[1] = 1;
@@ -17,6 +17,6 @@ public class FibonacciCalc {
     }
 
     public static void main(String[] args) {
-        Fibonacci();
+        Fibonacci(100);
     }
 }
