@@ -13,36 +13,47 @@ public class Person {
         setWeight(weight);
     }
 
+
     public String getFirstName() {
-        return firstName;
-    }
-    public String getLastName() {
-        return lastName;
-    }
-    public int getAge() {
-        return age;
-    }
-    public double getHeight() {
-        return height;
-    }
-    public double getWeight() {
-        return weight;
+        return this.firstName;
     }
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
     public void setLastName(String lastName) {
         this.lastName = lastName;
     }
+
+    public int getAge() {
+        return this.age;
+    }
+
     public void setAge(int age) {
         this.age = age;
     }
+
+    public double getHeight() {
+        return this.height;
+    }
+
     public void setHeight(double height) {
         this.height = height;
     }
+
+    public double getWeight() {
+        return this.weight;
+    }
+
     public void setWeight(double weight) {
         this.weight = weight;
     }
+
+
 }
 
